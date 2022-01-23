@@ -44,11 +44,24 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="2-AboutUs.php">About Us</a></li>
             <li><a href="3-Preachings.php">Preachings</a></li>
-            <li><a href="#">Ministries</a></li>
+            <li><a href="Ministries.php">Ministries</a>
+                <ul>
+                    <li><a href="#">Children</a></li>
+                    <li><a href="#">Youth</a></li>
+                    <li><a href="#">Lifegroup</a></li>
+                    <li><a href="#">Local Outreach</a></li>
+                    <li><a href="#">Mission</a></li>
+                </ul>
+            </li>
             <li><a href="5-Give.php">Give</a></li>
             <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
             <li><a href="#">|</a></li>
-            <li><a href="login.php">Log-in</a></li>
+            <li><a href="login.php">Log-in</a>
+                <ul>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Log out</a></li>
+                </ul>
+            </li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
