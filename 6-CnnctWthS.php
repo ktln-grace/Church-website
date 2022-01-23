@@ -36,7 +36,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="2-AboutUs.php">About Us</a></li>
             <li><a href="3-Preachings.php">Preachings</a></li>
-            <li><a href="Ministries.php">Ministries</a>
+            <li><a href="#">Ministries</a>
                 <ul>
                     <li><a href="#">Children</a></li>
                     <li><a href="#">Youth</a></li>

@@ -127,6 +127,14 @@ header{
 .nav-links li a:hover:after{
     width: 100%;
 }
+/*user's picture in header*/
+#profileDisplay{
+    margin: 10px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    width:43px;
+    height:43px;
+}
 .sub-menu li{ /* Sub Menus */
     display: none;
 }

@@ -1,3 +1,13 @@
+<?php
+
+    session_start();
+        include("connection.php");
+        include("functions.php"); 
+
+        $user_data = CheckLogin($con); //checks if logged in before directing to a page
+     
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,10 +44,10 @@
             <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="2-AboutUs.php">About Us</a></li>
-            <li><a href="3-Preachings.php">Preachings</a></li>
-            <li><a href="Ministries.php">Ministries</a>
+            <li><a href="index_user.php">Home</a></li>
+            <li><a href="2-AboutUs_user.php">About Us</a></li>
+            <li><a href="3-Preachings_user.php">Preachings</a></li>
+            <li><a href="#">Ministries</a>
                 <ul>
                     <li><a href="#">Children</a></li>
                     <li><a href="#">Youth</a></li>
@@ -46,13 +56,13 @@
                     <li><a href="#">Mission</a></li>
                 </ul>
             </li>
-            <li><a href="5-Give.php">Give</a></li>
-            <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
+            <li><a href="5-Give_user.php">Give</a></li>
+            <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
             <li><a href="#">|</a></li>
-            <li><a href="login.php">Log-in</a>
+            <li><img src="profilePictures/<?php echo !empty($user_data['profile_picture']) ? $user_data['profile_picture'] : "placeholder.jpg"; ?>" id="profileDisplay" class="displayProfile">
                 <ul>
-                    <li><a href="#">My Profile</a></li>
-                    <li><a href="#">Log out</a></li>
+                    <li><a href="profile.php">My Profile</a></li>
+                    <li><a href="logout.php">Log out</a></li>
                 </ul>
             </li>
         </ul>
