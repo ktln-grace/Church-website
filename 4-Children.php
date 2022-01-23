@@ -30,10 +30,10 @@
     
     <nav class="navbar">
         <div class="logo">
-            <a href="1-Index.php"><img src="logo/Logo.png" id="logo"></a>
+            <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
-            <li><a href="1-Index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="2-AboutUs.php">About Us</a></li>
             <li><a href="3-Preachings.php">Preachings</a></li>
             <li><a href="#">Ministries</a></li>
@@ -153,12 +153,12 @@
     <section class="footer">
     <div class="container flex">
         <div class="logo">
-            <a href="1-Index.php"><img src="logo/foot-logo.png" id="logo"></a>
+            <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
         </div>
         <div class="foot-links">
             <div>
                 <ul>
-                    <li><a href="1-Index.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="2-AboutUs.php">About Us</a></li>
                     <li><a href="3-Preachings.php">Preachings</a></li>
                 </ul>
