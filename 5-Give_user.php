@@ -48,8 +48,8 @@
             <li><a href="3-Preachings_user.php">Preachings</a></li>
             <li><a href="#">Ministries</a>
                 <ul>
-                    <li><a href="#">Children</a></li>
-                    <li><a href="#">Youth</a></li>
+                    <li><a href="4.0-Children_user.php">Children</a></li>
+                    <li><a href="4.1-Youth_user.php">Youth</a></li>
                     <li><a href="#">Lifegroup</a></li>
                     <li><a href="#">Local Outreach</a></li>
                     <li><a href="#">Mission</a></li>
