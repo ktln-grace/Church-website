@@ -1385,45 +1385,69 @@ section{
 .fill-form{
     background: url("pictures/6.2.png") center/cover;
     width: 100%;
-}
-.fill-form{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-}
-.fill-form .content{
+    text-align: center;
     color: white;
-    font-size: 2em;
+    max-height: 170vh;
+    margin: 0;
+    padding-top: 50px;
 }
-.fill-form .content .input-box{
-    font-size: 0.5em;
+.fill-form h1{
+    font-size: 40px;
+    padding-bottom: 10px;
 }
-.fill-form .content h1{
-    padding-bottom: 30px;
-    align-items: center;
-    text-transform: uppercase;
-    justify-content: center;
-    color: #09FF00;
-    margin-top: -80px;
-    margin-bottom: 100px;
+#description{
+    letter-spacing: 3px;
 }
-.fill-form label{
-    font-size: 20px;
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
 }
-/*.fill-form input {
-    margin: 10px auto;
+.form-control {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.form-control label {
     display: block;
-    height: 30px;
-    width: 40%;
-    padding: 0 10px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-} */
+    margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+} 
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {        
+    display: inline-block;
+    width: auto;
+}
+/* Styling the Button */
+#submit {
+    background-color: 	#08535775;
+    border: 1px solid #0853579a;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.additional-text {
+    margin-top: 10px;
+}
+.form-control {
+margin-top: 10px;
+}
 
 /* CONNECT - #3 */
 .infos .container{

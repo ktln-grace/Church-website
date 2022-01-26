@@ -95,53 +95,56 @@
     </section>
 
 
-    <section class="fill-form">
-        <form action ="6-CnnctWthS.php" method ="post">
-        <div class ="content">
-            <div>
-                <h1>Need Prayer and Councelling?</h1>
-            </div>
-            <div>
-                <h3>Fill in this Form.</h3>
-            </div>
-            <div>
-                <label for ="fullname">Name:</label>
-                <input class ="input-box" type ="text" name="name" required>
-            </div>
-            <div>
-                <label class ="" for ="age">Age:</label>
-                <input class ="input-box" type ="text" name="age" required>
-            </div>
-            <div>
-                <label class ="" for ="email">Email:</label>
-                <input class ="input-box" type ="email" name="email" required>
-            </div>
-            <div>
-                <label class ="" for ="contact">Contanct Number:</label>
-                <input class ="input-box" type ="text" name="contact" required>
-            </div>
-                <label class ="" for ="place">City/Province:</label>
-                <input class ="input-box" type ="text" name="place" required>
-            <div>
-                <label class ="" for ="concerns">
-                Share your prayer request or concerns you want to address
-                </label>
-                <div>
-                <input class ="input-box" type ="text" name="concerns" required>
-                </div>
-            </div>
-            <div>
-                <button class ="" type ="submit" name ="submit">Submit</button>
-            </div>
-            <?php if(!empty($msg)):?>
-                <div class="alert <?php echo $css_class; ?>">
-                    <?php echo $msg; ?>
-                </div>
-            <?php endif; ?>
-        </div>
-        </form>
+<section class="fill-form">
 
-    </section>
+    <div class ="content">
+        <div>
+            <h1>Need Prayer and Councelling?</h1>
+        </div>
+        <div>
+            <p id="description">Kindly fill-in this Form.</p>
+        </div>
+        <form action ="6-CnnctWthS.php" method ="post">
+
+        <div class="form-control">
+            <label for ="fullname">Name:</label>
+            <input class ="input-box" type ="text" name="name" required>
+        </div>
+        <div class="form-control">
+            <label class ="" for ="age">Age:</label>
+            <input class ="input-box" type ="text" name="age" required>
+        </div>
+        <div class="form-control">
+            <label class ="" for ="email">Email:</label>
+            <input class ="input-box" type ="email" name="email" required>
+        </div>
+        <div class="form-control">
+            <label class ="" for ="contact">Contanct Number:</label>
+            <input class ="input-box" type ="text" name="contact" required>
+        </div>
+        <div class="form-control">
+            <label class ="" for ="place">City/Province:</label>
+            <input class ="input-box" type ="text" name="place" required>
+        </div>
+        <div class="form-control">
+            <label class ="" for ="concerns">
+            Share your prayer request or concerns you want to address
+            </label>
+            <textarea name="comment" id="comment"
+            placeholder="Enter your prayer or concern here">
+        </textarea>
+        </div>
+        <div>
+            <button id="submit" type ="submit" name ="submit">Submit</button>
+        </div>
+        <?php if(!empty($msg)):?>
+            <div class="alert <?php echo $css_class; ?>">
+                <?php echo $msg; ?>
+            </div>
+        <?php endif; ?>
+    </div>
+    </form>
+</section>
 
     <section class="infos">
     <div class="container">

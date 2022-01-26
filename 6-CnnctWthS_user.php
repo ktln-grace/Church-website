@@ -108,42 +108,43 @@
 
 
     <section class="fill-form">
-        <form action ="6-CnnctWthS_user.php" method ="post">
         <div class ="content">
             <div>
                 <h1>Need Prayer and Councelling?</h1>
             </div>
             <div>
-                <h3>Fill in this Form.</h3>
+                <p id="description">Fill in this Form.</p>
             </div>
-            <div>
+
+        <form action ="6-CnnctWthS_user.php" method ="post">
+            <div class="form-control">
                 <label for ="fullname">Name:</label>
                 <input class ="input-box" type ="text" name="name" value="<?php echo $user_data['firstname'] . " " . $user_data['lastname']?>" readonly required>
             </div>
-            <div>
+            <div class="form-control">
                 <label class ="" for ="age">Age:</label>
                 <input class ="input-box" type ="text" name="age" value="<?php echo CalculateAge($user_data['birthdate']); ?>" readonly required>
             </div>
-            <div>
+            <div class="form-control">
                 <label class ="" for ="email">Email:</label>
                 <input class ="input-box" type ="email" name="email" value="<?php echo $user_data['email']; ?>" readonly required>
             </div>
-            <div>
+            <div class="form-control">
                 <label class ="" for ="contact">Contanct Number:</label>
                 <input class ="input-box" type ="text" name="contact" value="<?php echo $user_data['contactnumber']; ?>" readonly required>
             </div>
+            <div class="form-control">
                 <label class ="" for ="place">City/Province:</label>
                 <input class ="input-box" type ="text" name="place" required>
-            <div>
+            </div>
+            <div class="form-control">
                 <label class ="" for ="concerns">
                 Share your prayer request or concerns you want to address
                 </label>
-                <div>
-                <input class ="input-box" type ="text" name="concerns" required>
-                </div>
+                <textarea name="concerns" id="concerns" placeholder="Enter your prayer or concern here"></textarea>
             </div>
             <div>
-                <button class ="" type ="submit" name ="submit">Submit</button>
+                <button id="submit" type ="submit" name ="submit">Submit</button>
             </div>
             <?php if(!empty($msg)):?>
                 <div class="alert <?php echo $css_class; ?>">
