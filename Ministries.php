@@ -19,8 +19,8 @@
     <header>
         <div class="info">
             <ul class="info-links">
-                <li><a href="#">+639398517336</a></li>
-                <li><a href="#">cityword20@gmail.com</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt"> +639398517336</a></li>
+                <li><a href="#"><i class="fas fa-envelope">cityword20@gmail.com</a></li>
             </ul>
         </div>
         <div class="icons">
@@ -60,6 +60,8 @@
                 <img src="pictures/4.1.jpg">
                 <img src="pictures/4.1.jpg">
             </div>
+
+            
             <div>
                 <p>Join a</p>
                 <p>Life group</p>
@@ -85,55 +87,40 @@
     
         </section>
 
-    <!-- Footer -->
-    <section class="footer">
-        <div class="container flex">
-            <div class="logo">
-                <a href="#"><img src="logo/foot-logo.png" id="logo"></a>
+  <!-- Footer -->
+  <section class="footer">
+    <div class="container flex">
+        <div class="logo">
+            <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
+        </div>
+        <div class="foot-links">
+            <div>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="2-AboutUs.php">About Us</a></li>
+                    <li><a href="3-Preachings.php">Preachings</a></li>
+                </ul>
             </div>
-            <div class="foot-links">
-                <div>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="AboutUs.php">About Us</a></li>
-                        <li><a href="Preachings.php">Preachings</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="Ministries.php">Ministries</a></li>
-                        <li><a href="Give.php">Give</a></li>
-                        <li><a href="CnnctWthS.php">Connect with Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="info" id="grid">
-                <div>
-                    <p></p><i class="fas fa-map-marker-alt"></i></p>
-                    <p></p><i class="fas fa-envelope"></i> </p>
-                    <p></p><i class="fas fa-phone-alt"></i>  </p>
-                </div>
-                <div>
-                    <p>&nbsp;10th Swallow Street Francisville subd. Mambugan, Antipolo City PH</p>
-                    <p>&nbsp;cityword20@gmail.com </p>
-                    <p>&nbsp;(+63) 9398517336 </p>
-                </div>
+            <div>
+                <ul>
+                    <li><a href="#">Ministries</a></li>
+                    <li><a href="5-Give.php">Give</a></li>
+                    <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
+                </ul>
             </div>
         </div>
-        </section>
-    
-            <footer class="foot">
-                <p> City Word Family Church 2022</p>
-                <div>
-                    <a class = "" href="https://www.facebook.com/CovenantWorkersForChrist" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a class = "" href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-            </footer>
-    
+        <div class="info">
+            <p> 
+            <i class="fas fa-map-marker-alt"></i> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
+            <i class="fas fa-envelope"></i> cityword20@gmail.com <br> <br>
+            <i class="fas fa-phone-alt"></i> (+63) 9398517336 </p>   
+        </div>
+    </div>
+    </section>
+
+        <footer class="foot">
+            <p> City Word Family Church 2022</p>
+        </footer>
         <script src="app.js"></script>
 </body>
 </html>

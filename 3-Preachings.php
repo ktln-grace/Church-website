@@ -18,8 +18,8 @@
     <header>
         <div class="info">
             <ul class="info-links">
-                <li><a href="#">+639398517336</a></li>
-                <li><a href="#">cityword20@gmail.com</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt">+639398517336</i></a></li>
+                <li><a href="#"><i class="fas fa-envelope">cityword20@gmail.com</i></a></li>
             </ul>
         </div>
         <div class="icons">
@@ -48,7 +48,7 @@
             <li><a href="5-Give.php">Give</a></li>
             <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
             <li><a href="#">|</a></li>
-            <li><a href="logIn.php">Log-in</a></li>
+            <li><a href="logIn.php">Log-in&nbsp;<i class="fas fa-user"></i></a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>

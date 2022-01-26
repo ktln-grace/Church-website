@@ -28,8 +28,8 @@
     <header>
         <div class="info">
             <ul class="info-links">
-                <li><a href="#">+639398517336</a></li>
-                <li><a href="#">cityword20@gmail.com</a></li>
+                <li><a href="#"><i class="fas fa-phone-alt">+639398517336</i></a></li>
+                <li><a href="#"><i class="fas fa-envelope">cityword20@gmail.com</i></a></li>
             </ul>
         </div>
         <div class="icons">
@@ -185,8 +185,8 @@
     </section>
 
     
-    <!-- Footer -->
-    <section class="footer">
+  <!-- Footer -->
+  <section class="footer">
     <div class="container flex">
         <div class="logo">
             <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
@@ -208,17 +208,17 @@
             </div>
         </div>
         <div class="info">
-            <p> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
-            cityword20@gmail.com <br> <br>
-            (+63) 9398517336 </p>   
+            <p> 
+            <i class="fas fa-map-marker-alt"></i> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
+            <i class="fas fa-envelope"></i> cityword20@gmail.com <br> <br>
+            <i class="fas fa-phone-alt"></i> (+63) 9398517336 </p>   
         </div>
     </div>
     </section>
 
-    <footer class="foot">
+        <footer class="foot">
             <p> City Word Family Church 2022</p>
-    </footer>
-
+        </footer>
         <script src="app.js"></script>
 </body>
 </html>
