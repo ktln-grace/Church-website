@@ -130,8 +130,7 @@
             <label class ="" for ="concerns">
             Share your prayer request or concerns you want to address
             </label>
-            <textarea name="comment" id="comment"
-            placeholder="Enter your prayer or concern here">
+            <textarea name="concerns" id="concerns" placeholder="Enter your prayer or concern here"></textarea>here">
         </textarea>
         </div>
         <div>
