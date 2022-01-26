@@ -1,3 +1,32 @@
+<?php
+    include("connection.php");
+
+    $msg = ""; 
+    $css_class = "";
+
+    if(isset($_POST['submit'])){
+
+        if(!empty($_POST['name']) && !empty($_POST['age']) && !empty($_POST['email']) && !empty($_POST['contact']) && !empty($_POST['place']) && !empty($_POST['concerns'])){
+            
+            $name = addslashes($_POST['name']);
+            $age = addslashes($_POST['age']);
+            $email = addslashes($_POST['email']);
+            $contact = addslashes($_POST['contact']);
+            $place = addslashes($_POST['place']);
+            $concerns = addslashes($_POST['concerns']);
+
+            $query = "insert into cwu_form (name, age, email, contact, place, concerns) values ('$name', '$age', '$email', '$contact', '$place', '$concerns')";
+
+            mysqli_query($con, $query);
+
+            $msg = "Submitted successfully!";
+            $css_class = "alert-success";
+
+        }
+        
+        
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +96,7 @@
 
 
     <section class="fill-form">
-        <form action ="" method ="">
+        <form action ="6-CnnctWthS.php" method ="post">
         <div class ="content">
             <div>
                 <h1>Need Prayer and Councelling?</h1>
@@ -77,7 +106,7 @@
             </div>
             <div>
                 <label for ="fullname">Name:</label>
-                <input class ="input-box" type ="text" name="fullname" required>
+                <input class ="input-box" type ="text" name="name" required>
             </div>
             <div>
                 <label class ="" for ="age">Age:</label>
@@ -102,8 +131,13 @@
                 </div>
             </div>
             <div>
-                <input class ="" type ="submit" name ="" value ="Submit">
+                <button class ="" type ="submit" name ="submit">Submit</button>
             </div>
+            <?php if(!empty($msg)):?>
+                <div class="alert <?php echo $css_class; ?>">
+                    <?php echo $msg; ?>
+                </div>
+            <?php endif; ?>
         </div>
         </form>
 

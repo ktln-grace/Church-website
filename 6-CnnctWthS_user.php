@@ -5,7 +5,33 @@
         include("functions.php"); 
 
         $user_data = CheckLogin($con); //checks if logged in before directing to a page
-     
+
+        $msg = ""; 
+        $css_class = "";
+    
+        if(isset($_POST['submit'])){
+    
+            if(!empty($_POST['name']) && !empty($_POST['age']) && !empty($_POST['email']) && !empty($_POST['contact']) && !empty($_POST['place']) && !empty($_POST['concerns'])){
+                
+                $name = addslashes($_POST['name']);
+                $age = addslashes($_POST['age']);
+                $email = addslashes($_POST['email']);
+                $contact = addslashes($_POST['contact']);
+                $place = addslashes($_POST['place']);
+                $concerns = addslashes($_POST['concerns']);
+    
+                $query = "insert into cwu_form (name, age, email, contact, place, concerns) values ('$name', '$age', '$email', '$contact', '$place', '$concerns')";
+    
+                mysqli_query($con, $query);
+    
+                $msg = "Submitted successfully!";
+                $css_class = "alert-success";
+    
+            }
+            
+            
+        }
+    
 ?>
 
 <!DOCTYPE html>
@@ -82,7 +108,7 @@
 
 
     <section class="fill-form">
-        <form action ="" method ="">
+        <form action ="6-CnnctWthS_user.php" method ="post">
         <div class ="content">
             <div>
                 <h1>Need Prayer and Councelling?</h1>
@@ -92,19 +118,19 @@
             </div>
             <div>
                 <label for ="fullname">Name:</label>
-                <input class ="input-box" type ="text" name="fullname" required>
+                <input class ="input-box" type ="text" name="name" value="<?php echo $user_data['firstname'] . " " . $user_data['lastname']?>" readonly required>
             </div>
             <div>
                 <label class ="" for ="age">Age:</label>
-                <input class ="input-box" type ="text" name="age" required>
+                <input class ="input-box" type ="text" name="age" value="<?php echo CalculateAge($user_data['birthdate']); ?>" readonly required>
             </div>
             <div>
                 <label class ="" for ="email">Email:</label>
-                <input class ="input-box" type ="email" name="email" required>
+                <input class ="input-box" type ="email" name="email" value="<?php echo $user_data['email']; ?>" readonly required>
             </div>
             <div>
                 <label class ="" for ="contact">Contanct Number:</label>
-                <input class ="input-box" type ="text" name="contact" required>
+                <input class ="input-box" type ="text" name="contact" value="<?php echo $user_data['contactnumber']; ?>" readonly required>
             </div>
                 <label class ="" for ="place">City/Province:</label>
                 <input class ="input-box" type ="text" name="place" required>
@@ -117,8 +143,13 @@
                 </div>
             </div>
             <div>
-                <input class ="" type ="submit" name ="" value ="Submit">
+                <button class ="" type ="submit" name ="submit">Submit</button>
             </div>
+            <?php if(!empty($msg)):?>
+                <div class="alert <?php echo $css_class; ?>">
+                    <?php echo $msg; ?>
+                </div>
+            <?php endif; ?>
         </div>
         </form>
 

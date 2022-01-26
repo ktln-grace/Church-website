@@ -62,6 +62,15 @@
         }
             
     }
+
+    function CalculateAge($bday){
+
+        $birthDate = $bday;
+        $currentDate = date("Y-m-d");
+        $age = date_diff(date_create($birthDate), date_create($currentDate));
+        return $age->format("%y");
+
+    }
                     
         
 
