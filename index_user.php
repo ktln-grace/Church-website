@@ -28,6 +28,18 @@
     integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
     crossorigin="anonymous"></script>
     <title>Home - City Word Family Church Inc.</title>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-120px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
 </head>
 <body>
 
@@ -40,13 +52,13 @@
             </ul>
         </div>
         <div class="icons">
-            <a href="https://www.facebook.com/CovenantWorkersForChrist"><i id="fb" class="fab fa-facebook-square"></i></a>
-            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw"><i id="yt" class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/CovenantWorkersForChrist" target="_blank"><i id="fb" class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank"><i id="yt" class="fab fa-youtube"></i></a>
         </div>
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="logo">
             <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
@@ -206,9 +218,10 @@
             </div>
         </div>
         <div class="info">
-            <p> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
-            cityword20@gmail.com <br> <br>
-            (+63) 9398517336 </p>   
+            <p> 
+            <i class="fas fa-map-marker-alt"></i> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
+            <i class="fas fa-envelope"></i> cityword20@gmail.com <br> <br>
+            <i class="fas fa-phone-alt"></i> (+63) 9398517336 </p>   
         </div>
         </div>
     </section>

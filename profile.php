@@ -70,6 +70,18 @@
     }
     
 </script>
+<script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-120px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
 
 <body>
 <header>
@@ -80,8 +92,8 @@
             </ul>
         </div>
         <div class="icons">
-            <a href="https://www.facebook.com/CovenantWorkersForChrist"><i id="fb" class="fab fa-facebook-square"></i></a>
-            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw"><i id="yt" class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/CovenantWorkersForChrist" target="_blank"><i id="fb" class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank"><i id="yt" class="fab fa-youtube"></i></a>
         </div>
     </header>
 
@@ -234,9 +246,10 @@
             </div>
         </div>
         <div class="info">
-            <p> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
-            cityword20@gmail.com <br> <br>
-            (+63) 9398517336 </p>   
+            <p> 
+            <i class="fas fa-map-marker-alt"></i> 10th Swallow Street Francisville subd. Mambugan, Antipolo City PH <br> <br>
+            <i class="fas fa-envelope"></i> cityword20@gmail.com <br> <br>
+            <i class="fas fa-phone-alt"></i> (+63) 9398517336 </p>   
         </div>
         </div>
     </section>

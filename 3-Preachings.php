@@ -13,6 +13,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <title>Preaching | City Word Family Church Inc.</title>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-120px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -23,12 +35,12 @@
             </ul>
         </div>
         <div class="icons">
-            <a href="https://www.facebook.com/CovenantWorkersForChrist"><i id="fb" class="fab fa-facebook-square"></i></a>
-            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw"><i id="yt" class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/CovenantWorkersForChrist" target="_blank"><i id="fb" class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank"><i id="yt" class="fab fa-youtube"></i></a>
         </div>
     </header>
 
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="logo">
             <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
         </div>

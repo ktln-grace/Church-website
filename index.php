@@ -44,8 +44,8 @@
             </ul>
         </div>
         <div class="icons">
-            <a href="https://www.facebook.com/CovenantWorkersForChrist"><i id="fb" class="fab fa-facebook-square"></i></a>
-            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw"><i id="yt" class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/CovenantWorkersForChrist" target="_blank"><i id="fb" class="fab fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank"><i id="yt" class="fab fa-youtube"></i></a>
         </div>
     </header>
 
