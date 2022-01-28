@@ -52,9 +52,9 @@
                 <ul>
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
-                    <li><a href="#">Lifegroup</a></li>
-                    <li><a href="#">Local Outreach</a></li>
-                    <li><a href="#">Mission</a></li>
+                    <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
+                    <li><a href="4.3-Services">Services</a></li>
+                    <li><a href="4.4-Events">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give.php">Give</a></li>
@@ -120,7 +120,7 @@
                     <img src="pictures/ch4.png">
                 <div class="info">
                     <h1>Sunday School</h1>
-                    <p>And He Himself gave some to be apostles, some prophets, some evangelists, and some pastors and teachers, for the equipping of the saints for the work of ministry, for the [a]edifying of the body of Christ, <br><br> Ephesians 4:11-12</p>
+                    <p>Children Sunday School is a part of Sunday service. Since the CWFC established the Children Ministry was also started. Teaching the kids about Jesus and follow his footstep. Building the character of this children to be a future workers and leaders of the church. Now some of the pioneering kids is a workers and leaders of our church creating impact to reach more children to be a disciple of Jesus.</p>
                 </div>
             </div>
 

@@ -103,12 +103,12 @@
             <a href="#"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Preachings</a></li>
+            <li><a href="index_user.php">Home</a></li>
+            <li><a href="2-AboutUs_user.php">About Us</a></li>
+            <li><a href="3-Preachings_user.php">Preachings</a></li>
             <li><a href="#">Ministries</a></li>
-            <li><a href="#">Give</a></li>
-            <li><a href="#">Connect with Us</a></li>
+            <li><a href="5-Give_user.php">Give</a></li>
+            <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
             <li><a href="#">|</a></li>
             <li><a href="#">Katelene Grace</a></li>
         </ul>

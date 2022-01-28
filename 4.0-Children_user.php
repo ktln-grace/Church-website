@@ -62,9 +62,9 @@
                 <ul>
                     <li><a href="4.0-Children_user.php">Children</a></li>
                     <li><a href="4.1-Youth_user.php">Youth</a></li>
-                    <li><a href="#">Lifegroup</a></li>
-                    <li><a href="#">Local Outreach</a></li>
-                    <li><a href="#">Mission</a></li>
+                    <li><a href="4.2-Lifegroup_user.php">Lifegroup</a></li>
+                    <li><a href="4.3-Services_user">Services</a></li>
+                    <li><a href="4.4-Events_user">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give_user.php">Give</a></li>
@@ -135,7 +135,7 @@
                     <img src="pictures/ch4.png">
                 <div class="info">
                     <h1>Sunday School</h1>
-                    <p>And He Himself gave some to be apostles, some prophets, some evangelists, and some pastors and teachers, for the equipping of the saints for the work of ministry, for the [a]edifying of the body of Christ, <br><br> Ephesians 4:11-12</p>
+                    <p>Children Sunday School is a part of Sunday service. Since the CWFC established the Children Ministry was also started. Teaching the kids about Jesus and follow his footstep. Building the character of this children to be a future workers and leaders of the church. Now some of the pioneering kids is a workers and leaders of our church creating impact to reach more children to be a disciple of Jesus.</p>
                 </div>
             </div>
 
@@ -143,7 +143,7 @@
                 <img src="pictures/ch5.png">
                 <div class="info">
                     <h1>Tinampo Outreach</h1>
-                    <p>Tinampo Outreach is the most distanced Barangay from the Church; It takes 10-15 minutes to get there. As of now, they are teaching almost 20 kids once a week, although the status of some of the children’s life is difficult, it does not hinder them from learning the word of God.</p>
+                    <p>This outreach was started year 2020 when the pandemic strike but nothing can stop to share the Gospel for this children. This area in Tinampo is a potential to be a sattelite/ daughter church.Gathering this children for the future to be part of extending God's kingdom. As of now we meet every Saturday for our Childrens bible school session. We are having our session in temporary area while waiting to  establish the church building.</p>
                 </div>
             </div>
 

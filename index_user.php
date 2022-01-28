@@ -70,9 +70,9 @@
                 <ul>
                     <li><a href="4.0-Children_user.php">Children</a></li>
                     <li><a href="4.1-Youth_user.php">Youth</a></li>
-                    <li><a href="#">Lifegroup</a></li>
-                    <li><a href="#">Local Outreach</a></li>
-                    <li><a href="#">Mission</a></li>
+                    <li><a href="4.2-Lifegroup_user.php">Lifegroup</a></li>
+                    <li><a href="4.3-Services_user">Services</a></li>
+                    <li><a href="4.4-Events_user">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give_user.php">Give</a></li>
