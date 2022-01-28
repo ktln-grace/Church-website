@@ -104,15 +104,15 @@
     <div class="intro">
         <div class="intro-text">
             <h1 class="hide">
-            <span class="text">Loves God,</span>
+            <span class="text">Hello There,</span>
             </h1>
 
             <h1 class="hide">
-            <span class="text">Loves People,</span>
+            <span class="text">Friend.</span>
             </h1>
 
             <h1 class="hide">
-            <span class="text">Make Disciples.</span>
+            <span class="text">Welcome to Church</span>
             </h1>
         </div>
     </div>
