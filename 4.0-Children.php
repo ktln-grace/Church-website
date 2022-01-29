@@ -53,8 +53,8 @@
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
                     <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
-                    <li><a href="4.3-Services">Services</a></li>
-                    <li><a href="4.4-Events">Events</a></li>
+                    <li><a href="4.3-Services.php">Services</a></li>
+                    <li><a href="4.4-Events.php">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give.php">Give</a></li>

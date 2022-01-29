@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Children | City Word Family Church Inc.</title>
+    <title>Services | City Word Family Church Inc.</title>
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
@@ -53,8 +53,8 @@
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
                     <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
-                    <li><a href="4.3-Services">Services</a></li>
-                    <li><a href="4.4-Events">Events</a></li>
+                    <li><a href="4.3-Services.php">Services</a></li>
+                    <li><a href="4.4-Events.php">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give.php">Give</a></li>
@@ -69,42 +69,50 @@
         </div>
     </nav> 
 
-
-
-
-
-
-
-
-
-<!-- GRID -->
-<section class="min">
-
-            <div class ="subgrid" id= "imahe"> 
-                <img src="pictures/4.1.jpg">
-                <img src="pictures/4.1.jpg">
-                <img src="pictures/4.1.jpg">
-                <img src="pictures/4.1.jpg">
-                <img src="pictures/4.1.jpg">
-                <img src="pictures/4.1.jpg">
-            </div>
-
-        <div id="slider">
-            <figure>
-                <img src="pictures/img1.png">
-                <img src="pictures/img2.png">
-                <img src="pictures/img3.png">
-                <img src="pictures/img4.png">
-                <img src="pictures/img5.png">
-            </figure>
+    <section class="services">
+        <div class="content">
+                <h4> Church Services</h4>
+                <p> And let us not neglect our meeting together, as some people do,<br> but encourage one another, especially now that the day of his return is drawing near.<br> <br> <b>Hebrew 10:25</b> </p>
         </div>
-    
-        </section>
+    </section>
+
+    <section class="sched">
+        <div class="left" >
+            <div class="content">
+                <a href="#"><img src="pictures/s1.png"></a>
+                <div class="info">
+                <h4>Antipolo Sunday Service</h4>
+                <p class="description">Sundays, 7:00 am - 9: 00am</p>
+                <p>The Picture on the left shows the service held at City Word Family Church-Mambugan. The attendees in this service is mostly the church leaders, workers, new discples that has a range of 60-80 attendees excluding children.</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <div class="info">
+                <h4>Seedling Sunday Service</h4>
+                <p class="description">Sundays, 2:00 pm - 4:00 pm</p>
+                <p>The picture on the right shows the Sunday service held at Seedling, the outreach church in Antipolo City. We currently have 25-30 regular attendees in this service (children not included in the number).</p>
+                </div>
+                <a href="#"><img src="pictures/s2.png"></a>
+            </div>
+        </div>
+        <div class="left" >
+            <div class="content">
+                <a href="#"><img src="pictures/s3.png"></a>
+                <div class="info">
+                <h4>Ligao Sunday Service</h4>
+                <p class="description">Sundays, 7:30 am - 9: 30am</p>
+                <p>Worship service starts at 7:30 am at the City Word worship center. Sunday is a day we gathered in one place to worship the Lord. As the year 2021 we are declaring a year of breakthrough in every Sunday service. The flow of the service begins with the praise and worship, testimony and preaching the word of God. The number of attendees during the service is maximum of 80 persons. While in other side Sunday school for children are handled. </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
-
-  <!-- Footer -->
-  <section class="footer">
+<!-- Footer -->
+<section class="footer">
     <div class="container flex">
         <div class="logo">
             <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>

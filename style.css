@@ -904,7 +904,7 @@ section{
     justify-content: space-around;
     gap: 50px;
 }
-.card{
+.wwd .card{
     width: 360px;
     height: 300px;
     padding: 2rem 1rem;
@@ -915,10 +915,10 @@ section{
     box-shadow: 0px 7px 10px rgb(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
 }
-.card:hover{
+.wwd .card:hover{
     transform: translateY(20px);
 }
-.card:before{
+.wwd .card:before{
     content: "";
     position: absolute;
     top: 0;
@@ -931,10 +931,10 @@ section{
     transition: 0.5s all;
     opacity: 0;
 }
-.card:hover:before{
+.wwd .card:hover:before{
     opacity: 1;
 }
-.card img{
+.wwd .card img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -942,7 +942,7 @@ section{
     top: 0;
     left: 0;
 }
-.card .info{
+.wwd .card .info{
     position: relative;
     z-index: 3;
     color: #fff;
@@ -950,17 +950,17 @@ section{
     transform: translateY(10px);
     transition: 0.5s all;
 }
-.card:hover .info{
+.wwd .card:hover .info{
     opacity: 1;
     transform: translateY(0px);
 }
-.card .info h1{
+.wwd .card .info h1{
     margin: 0;
     font-size: 30px;
     text-transform: capitalize;
     color: white;
 }
-.card .info p{
+.wwd .card .info p{
     letter-spacing: 1px;
     font-size: 15px;
     margin-top: 8px;
@@ -1232,6 +1232,79 @@ section{
     font-size: 15px;
     margin-top: 8px;
     margin-bottom: 20px;
+}
+.lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lg h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.lg h3{
+    font-size: 30px;
+}
+
+/*SERVICES*/
+.services{
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url("pictures/4.3.png") center/cover;
+}
+.services .content{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.services .content h4{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: -40px;
+    letter-spacing: 3px;
+    line-height: 75px;
+    margin-bottom: 30px;
+    color: white;
+}
+.services .content p{
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 20px;
+}
+.sched{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    height: auto;
+    width: 100%;
+}
+.sched .right{
+    display: flex;
+    justify-content: right;
+}
+.sched .content{
+    display: flex;
+}
+.sched .content .info{
+    margin: 20px 20px;
+    padding: 30px 30px;
+}
+.sched .content h4{
+    font-size: 40px;
+    font-weight: 800;
+}
+.sched .content .description{
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    color: #359c31;
 }
 
 

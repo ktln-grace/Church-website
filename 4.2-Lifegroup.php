@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Children | City Word Family Church Inc.</title>
+    <title>Lifegroup | City Word Family Church Inc.</title>
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
@@ -53,8 +53,8 @@
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
                     <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
-                    <li><a href="4.3-Services">Services</a></li>
-                    <li><a href="4.4-Events">Events</a></li>
+                    <li><a href="4.3-Services.php">Services</a></li>
+                    <li><a href="4.4-Events.php">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give.php">Give</a></li>
@@ -69,13 +69,22 @@
         </div>
     </nav> 
 
-  
-  
-  
     <section class="min">
-            <div>
-                <p>Join a</p>
-                <p>Life group</p>
+        <div id="slider">
+            <figure>
+                <img src="pictures/img1.png">
+                <img src="pictures/img2.png">
+                <img src="pictures/img3.png">
+                <img src="pictures/img4.png">
+                <img src="pictures/img5.png">
+            </figure>
+        </div>
+        </section>
+        
+    <section class="lg">
+        <div>
+                <h3>Join a</h3>
+                <h1>Life group</h1>
                 <p>Our life Journey as followers and believers of Christ is not meant to take alone.
                     Instead, we must keep living our journey with people who are taking the same tract as ours.
                     Let's build a Christ-centered community where we can provide fun, casual atmosphere,
@@ -86,26 +95,10 @@
                 </p>
             </div>
         </div>
-        <div id="slider">
-            <figure>
-                <img src="pictures/img1.png">
-                <img src="pictures/img2.png">
-                <img src="pictures/img3.png">
-                <img src="pictures/img4.png">
-                <img src="pictures/img5.png">
-            </figure>
-        </div>
-    
-        </section>
-  
-  
-  
-  
-  
-  
-  
-  <!-- Footer -->
-  <section class="footer">
+    </section>
+
+<!-- Footer -->
+<section class="footer">
     <div class="container flex">
         <div class="logo">
             <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>

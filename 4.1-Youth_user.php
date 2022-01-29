@@ -1,3 +1,14 @@
+<?php
+
+    session_start();
+        include("connection.php");
+        include("functions.php"); 
+
+        $user_data = CheckLogin($con); //checks if logged in before directing to a page
+     
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,8 +99,8 @@
                     <li><a href="4.0-Children_user.php">Children</a></li>
                     <li><a href="4.1-Youth_user.php">Youth</a></li>
                     <li><a href="4.2-Lifegroup_user.php">Lifegroup</a></li>
-                    <li><a href="4.3-Services_user">Services</a></li>
-                    <li><a href="4.4-Events_user">Events</a></li>
+                    <li><a href="4.3-Services_user.php">Services</a></li>
+                    <li><a href="4.4-Events_user.php">Events</a></li>
                 </ul>
             </li>
             <li><a href="5-Give_user.php">Give</a></li>
