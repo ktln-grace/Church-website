@@ -52,7 +52,7 @@
     
     <nav class="navbar" id="navbar">
         <div class="logo">
-            <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
             <li><a href="index_user.php">Home</a></li>
@@ -62,7 +62,6 @@
                 <ul>
                     <li><a href="4.0-Children_user.php">Children</a></li>
                     <li><a href="4.1-Youth_user.php">Youth</a></li>
-                    <li><a href="4.2-Lifegroup_user.php">Lifegroup</a></li>
                     <li><a href="4.3-Services_user.php">Services</a></li>
                     <li><a href="4.4-Events_user.php">Events</a></li>
                 </ul>
@@ -188,21 +187,21 @@
   <section class="footer">
     <div class="container flex">
         <div class="logo">
-            <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/foot-logo.png" id="logo"></a>
         </div>
         <div class="foot-links">
             <div>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="2-AboutUs.php">About Us</a></li>
-                    <li><a href="3-Preachings.php">Preachings</a></li>
+                    <li><a href="index_user.php">Home</a></li>
+                    <li><a href="2-AboutUs_user.php">About Us</a></li>
+                    <li><a href="3-Preachings_user.php">Preachings</a></li>
                 </ul>
             </div>
             <div>
                 <ul>
                     <li><a href="#">Ministries</a></li>
-                    <li><a href="5-Give.php">Give</a></li>
-                    <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
+                    <li><a href="5-Give_user.php">Give</a></li>
+                    <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
                 </ul>
             </div>
         </div>

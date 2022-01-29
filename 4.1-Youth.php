@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youth | City Word Family Church</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <style>
     *{
         margin:0;
@@ -207,7 +208,6 @@
                 <ul>
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
-                    <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
                     <li><a href="4.3-Services.php">Services</a></li>
                     <li><a href="4.4-Events.php">Events</a></li>
                 </ul>

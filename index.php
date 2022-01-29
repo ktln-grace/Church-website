@@ -62,7 +62,6 @@
                 <ul>
                     <li><a href="4.0-Children.php">Children</a></li>
                     <li><a href="4.1-Youth.php">Youth</a></li>
-                    <li><a href="4.2-Lifegroup.php">Lifegroup</a></li>
                     <li><a href="4.3-Services.php">Services</a></li>
                     <li><a href="4.4-Events.php">Events</a></li>
                 </ul>
@@ -156,7 +155,6 @@
             <p> Our life journey as followers and believers of Christ is not meant to take alone. <br> Instead, we must keep living our journey with people who are taking the same track <br> as ours. Let’s build a Christ-centered community where we can provide fun, casual <br> atmosphere, and authentic relationships with one another. <br>
                 <br> Join a life group now where you can study God’s word, share your life experiences, <br> share testimonies and triumphs altogether and grow more and deeper <br> in Christ. <br>
                 <br> Don’t worry if you are a mom, or a dad, or a college student, or a teen, we have a <br> suitable group for you.</p>
-                <a href="4.2-Lifegroup.php"> Register Now </a>
         </div>
         </div>
     </section>

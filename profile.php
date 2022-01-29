@@ -45,6 +45,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./My-Profile.css">
+    <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <title>My Profile - City Word Family Church Inc.</title>
     <!--
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -100,7 +101,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <a href="#"><img src="logo/Logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
             <li><a href="index_user.php">Home</a></li>
@@ -110,7 +111,7 @@
             <li><a href="5-Give_user.php">Give</a></li>
             <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
             <li><a href="#">|</a></li>
-            <li><a href="#">Katelene Grace</a></li>
+            <li><a href="#">My Profile</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -227,21 +228,21 @@
     <section class="footer">
         <div class="container flex">
         <div class="logo">
-            <a href="#"><img src="logo/foot-logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/foot-logo.png" id="logo"></a>
         </div>
         <div class="foot-links">
             <div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Preachings</a></li>
+                    <li><a href="index_user.php">Home</a></li>
+                    <li><a href="2-AboutUs_user.php">About Us</a></li>
+                    <li><a href="3-Preachings_user.php">Preachings</a></li>
                 </ul>
             </div>
             <div>
                 <ul>
                     <li><a href="#">Ministries</a></li>
-                    <li><a href="#">Give</a></li>
-                    <li><a href="#">Connect with Us</a></li>
+                    <li><a href="5-Give_user.php">Give</a></li>
+                    <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
                 </ul>
             </div>
         </div>

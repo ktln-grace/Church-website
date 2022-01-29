@@ -60,7 +60,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar" id="navbar">
         <div class="logo">
-            <a href="index.php"><img src="logo/Logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/Logo.png" id="logo"></a>
         </div>
         <ul class="nav-links">
             <li><a href="index_user.php">Home</a></li>
@@ -70,7 +70,6 @@
                 <ul>
                     <li><a href="4.0-Children_user.php">Children</a></li>
                     <li><a href="4.1-Youth_user.php">Youth</a></li>
-                    <li><a href="4.2-Lifegroup_user.php">Lifegroup</a></li>
                     <li><a href="4.3-Services_user.php">Services</a></li>
                     <li><a href="4.4-Events_user.php">Events</a></li>
                 </ul>
@@ -169,7 +168,6 @@
             <p> Our life journey as followers and believers of Christ is not meant to take alone. <br> Instead, we must keep living our journey with people who are taking the same track <br> as ours. Let’s build a Christ-centered community where we can provide fun, casual <br> atmosphere, and authentic relationships with one another. <br>
                 <br> Join a life group now where you can study God’s word, share your life experiences, <br> share testimonies and triumphs altogether and grow more and deeper <br> in Christ. <br>
                 <br> Don’t worry if you are a mom, or a dad, or a college student, or a teen, we have a <br> suitable group for you.</p>
-                <a href="4.2-Lifegroup_user.php"> Register Now </a>
         </div>
         </div>
     </section>
@@ -196,21 +194,21 @@
     <section class="footer">
         <div class="container flex">
         <div class="logo">
-            <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
+            <a href="index_user.php"><img src="logo/foot-logo.png" id="logo"></a>
         </div>
         <div class="foot-links">
             <div>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="2-AboutUs.php">About Us</a></li>
-                    <li><a href="3-Preachings.php">Preachings</a></li>
+                    <li><a href="index_user.php">Home</a></li>
+                    <li><a href="2-AboutUs_user.php">About Us</a></li>
+                    <li><a href="3-Preachings_user.php">Preachings</a></li>
                 </ul>
             </div>
             <div>
                 <ul>
                     <li><a href="#">Ministries</a></li>
-                    <li><a href="5-Give.php">Give</a></li>
-                    <li><a href="6-CnnctWthS.php">Connect with Us</a></li>
+                    <li><a href="5-Give_user.php">Give</a></li>
+                    <li><a href="6-CnnctWthS_user.php">Connect with Us</a></li>
                 </ul>
             </div>
         </div>
