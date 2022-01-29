@@ -169,13 +169,12 @@
     font-size: 0.9em;
     margin-bottom: 10px;
 }
-.life .img img{
+.life .img{
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
-    margin-left: -120px;
     padding: 0;
+    display: flex;
 }
 </style>
 <script>

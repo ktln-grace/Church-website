@@ -159,13 +159,12 @@
     font-size: 0.9em;
     margin-bottom: 10px;
 }
-.life .img img{
+.life .img{
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
-    margin-left: -120px;
     padding: 0;
+    display: flex;
 }
 
 </style>
@@ -239,7 +238,7 @@
     <p class="tagline">"Shaking our Generation for Christ"</p>
     <div class="img">
             <a href="#"><img src="pictures/4.2.png"></a>
-        </div>
+    </div>
     <div class="center">
         <div class="card">
             <div class="additional">

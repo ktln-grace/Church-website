@@ -181,10 +181,7 @@
                 <h1> Give? </h1>
                 <p>Each of you should give what you have decided in your heart to give, <br> not reluctantly or under compulsion, for God loves a cheerful giver. <br> 2 Corinthians 9:7</p>
                 <div class="button">
-                    <button href="Give.php" id="button-hovers" class="button1"><span> Tithes and Offering </span></button>
-                </div>
-                <div class="button">
-                    <button href="Give.php" id="button-hovers" class="button2"><span> Pledges </span></button>
+                    <button href="5-Give_user.php" id="button-hovers" class="button1"><span> Give </span></button>
                 </div>
             </div>
             <div class="content">
