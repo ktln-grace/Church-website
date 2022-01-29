@@ -132,7 +132,7 @@
                 <div class="content">
                     <h3>Water Baptism</h3>
                     <p class="content2">Baptism, which corresponds to this, now saves you, not as a removal of dirt from the body but as an appeal to God for a good conscience, through the resurrection of Jesus Christ,</p>
-                    <a href="#" >Read More</a>
+                    <a href="4.4-Events.php" >Read More</a>
                 </div>
             </div>
             <div class="container">
@@ -141,7 +141,7 @@
                 <div class="content">
                     <h3>EGR</h3>
                     <p class="content3">EGR or Encountering God's Retreat <br> is a 2 days and 1 night retreat where we will talk about God's word and different aspects of life DEEPER. This is also the time where you will be able to have a genuine encounter with Him.</p>
-                    <a href="#">Read More</a>
+                    <a href="4.4-Events.php">Read More</a>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
             <p> Our life journey as followers and believers of Christ is not meant to take alone. <br> Instead, we must keep living our journey with people who are taking the same track <br> as ours. Let’s build a Christ-centered community where we can provide fun, casual <br> atmosphere, and authentic relationships with one another. <br>
                 <br> Join a life group now where you can study God’s word, share your life experiences, <br> share testimonies and triumphs altogether and grow more and deeper <br> in Christ. <br>
                 <br> Don’t worry if you are a mom, or a dad, or a college student, or a teen, we have a <br> suitable group for you.</p>
-                <a href="4-Lifegroup.php"> Register Now </a>
+                <a href="4.2-Lifegroup.php"> Register Now </a>
         </div>
         </div>
     </section>
