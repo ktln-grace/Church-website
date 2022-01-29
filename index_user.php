@@ -136,7 +136,7 @@
                 <div class="content">
                     <h3>Sunday Service</h3>
                     <p>7:00 am - 9:00 am <br> Antipolo <br> <br> 7:30 am - 9:30 am <br>Ligao City <br><br> 2:00 pm - 4:00 pm <br> Baras, Rizal </p>
-                    <a href="#">Read More</a>
+                    <a href="4.3-Services_user.php">Read More</a>
                 </div>
             </div>
             <div class="container">

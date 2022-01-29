@@ -159,6 +159,14 @@
     font-size: 0.9em;
     margin-bottom: 10px;
 }
+.life .img img{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: -120px;
+    padding: 0;
+}
 
 </style>
 <script>
@@ -229,6 +237,9 @@
 
     <section class="life">
     <p class="tagline">"Shaking our Generation for Christ"</p>
+    <div class="img">
+            <a href="#"><img src="pictures/4.2.png"></a>
+        </div>
     <div class="center">
         <div class="card">
             <div class="additional">
@@ -241,7 +252,7 @@
             <div class="general">
                 <h1>Epicenter</h1>
                 <p>It was handled now by the ministry head, every Tuesday at 5:00 in the afternoon. We gather in CWFC worship center and talk about God's Word. There are about 15 young people who are consistent attending in this gathering.</p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
 
@@ -256,7 +267,7 @@
             <div class="general">
                 <h1>Intensify</h1>
                 <p>This life group started during the ecq season in the initiative of Dejarlo Family. It is held every Monday at 4:00 in the afternoon. We gather in Dejarlo Residence and talk about God's Word. There are about 15 young people who are consistently attending in this gathering.</p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
     </div>
@@ -266,7 +277,7 @@
             <div class="additional2">
                 <div class="more-info">
                         <div class="coords">
-                            <a href="#"><img src="pictures/lg1.jpg"></a>
+                            <a href="#"><img src="pictures/lg3.jpg"></a>
                         </div>
                 </div>
             </div>
@@ -274,7 +285,7 @@
                 <h1>Magnify</h1>
                 <p>The topic as of now is Pre-Encounter Lesson 4: Healthy Spiritual Diet. The number of regular attendees are 4 people. Also little by little a bonding is formed between them, they became more comfortable in each other, no more shyness and all. 
                 </p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
 
@@ -289,7 +300,7 @@
             <div class="general">
                 <h1>Wave</h1>
                 <p>This life group was a newly birthed group. It has started in the first week of April and continuously gather every Tuesday at 4:00 in the afternoon. We gather in the backyard of the church d. We are now currently in the Pre-Encounter topic. There are about 10 young people who are consistent attending in this gathering.</p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
     </div>
@@ -299,14 +310,14 @@
             <div class="additional">
                 <div class="more-info">
                         <div class="coords">
-                            <a href="#"><img src="pictures/lg1.jpg"></a>
+                            <a href="#"><img src="pictures/lg5.jpg"></a>
                         </div>
                 </div>
             </div>
             <div class="general">
                 <h1>Magnitude</h1>
                 <p>It was handled now by the ministry head, every Tuesday at 5:00 in the afternoon. We gather in CWFC worship center and talk about God's Word. There are about 15 young people who are consistent attending in this gathering.</p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
 
@@ -314,22 +325,22 @@
             <div class="additional2">
                 <div class="more-info">
                         <div class="coords">
-                            <a href="#"><img src="pictures/lg2.jpg"></a>
+                            <a href="#"><img src="pictures/lg6.jpg"></a>
                         </div>
                 </div>
             </div>
             <div class="general">
                 <h1>Seismic</h1>
                 <p>This life group started during the ecq season in the initiative of Dejarlo Family. It is held every Monday at 4:00 in the afternoon. We gather in Dejarlo Residence and talk about God's Word. There are about 15 young people who are consistently attending in this gathering.</p>
-                <span class="more">Mouse over the card for more info</span>
+                <span class="more">Mouse over the card to see image</span>
             </div>
         </div>
     </div>
 
 </section>
     
-  <!-- Footer -->
-  <section class="footer">
+<!-- Footer -->
+<section class="footer">
     <div class="container flex">
         <div class="logo">
             <a href="index.php"><img src="logo/foot-logo.png" id="logo"></a>
