@@ -57,6 +57,126 @@
         justify-content: center;
         align-items: center;
     }
+    .life{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .life .tagline{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 7px;
+        margin-top: -190px;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.card {
+    width: 450px;
+    height: 250px;
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+}
+.card .additional {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(#8cd9dd, #45868a);
+    transition: width 0.6s;
+    overflow: hidden;
+    z-index: 2;
+}
+.card .additional2 {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(#9adb98, #4a8a48);
+    transition: width 0.6s;
+    overflow: hidden;
+    z-index: 2;
+}
+.card:hover .additional {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+.card:hover .additional2 {
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+.card .additional .more-info {
+    width: 300px;
+    float: left;
+    position: absolute;
+    left: 50px;
+}
+.card .additional2 .more-info {
+    width: 300px;
+    float: left;
+    position: absolute;
+    left: 50px;
+}
+.card .additional .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.card .additional2 .coords {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.card .additional .coords img{
+    width: 350px;
+    height: 230px;
+    margin: 10px;
+}
+.card .additional2 .coords img{
+    width: 350px;
+    height: 230px;
+    margin: 10px;
+}
+.card .general {
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 1rem;
+    padding-top: 0;
+    margin-top: 20px;
+}
+.card .general h1{
+    padding-bottom: 20px;
+}
+.card .general .more {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.life .img img{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: -120px;
+    padding: 0;
+}
 </style>
 <script>
         var prevScrollpos = window.pageYOffset;
@@ -127,6 +247,111 @@
         <h2>Youth</h2>
     </div>
     </section>
+
+    
+    <section class="life">
+    <p class="tagline">"Shaking our Generation for Christ"</p>
+    <div class="img">
+            <a href="#"><img src="pictures/4.2.png"></a>
+        </div>
+    <div class="center">
+        <div class="card">
+            <div class="additional">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg1.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Epicenter</h1>
+                <p>It was handled now by the ministry head, every Tuesday at 5:00 in the afternoon. We gather in CWFC worship center and talk about God's Word. There are about 15 young people who are consistent attending in this gathering.</p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="additional2">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg2.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Intensify</h1>
+                <p>This life group started during the ecq season in the initiative of Dejarlo Family. It is held every Monday at 4:00 in the afternoon. We gather in Dejarlo Residence and talk about God's Word. There are about 15 young people who are consistently attending in this gathering.</p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="card">
+            <div class="additional2">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg3.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Magnify</h1>
+                <p>The topic as of now is Pre-Encounter Lesson 4: Healthy Spiritual Diet. The number of regular attendees are 4 people. Also little by little a bonding is formed between them, they became more comfortable in each other, no more shyness and all. 
+                </p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="additional">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg4.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Wave</h1>
+                <p>This life group was a newly birthed group. It has started in the first week of April and continuously gather every Tuesday at 4:00 in the afternoon. We gather in the backyard of the church d. We are now currently in the Pre-Encounter topic. There are about 10 young people who are consistent attending in this gathering.</p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="card">
+            <div class="additional">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg5.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Magnitude</h1>
+                <p>It was handled now by the ministry head, every Tuesday at 5:00 in the afternoon. We gather in CWFC worship center and talk about God's Word. There are about 15 young people who are consistent attending in this gathering.</p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="additional2">
+                <div class="more-info">
+                        <div class="coords">
+                            <a href="#"><img src="pictures/lg6.jpg"></a>
+                        </div>
+                </div>
+            </div>
+            <div class="general">
+                <h1>Seismic</h1>
+                <p>This life group started during the ecq season in the initiative of Dejarlo Family. It is held every Monday at 4:00 in the afternoon. We gather in Dejarlo Residence and talk about God's Word. There are about 15 young people who are consistently attending in this gathering.</p>
+                <span class="more">Mouse over the card to see image</span>
+            </div>
+        </div>
+    </div>
+
+</section>
     
   <!-- Footer -->
   <section class="footer">
