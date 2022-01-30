@@ -222,7 +222,7 @@
     </section>
 
         <footer class="foot">
-            <p> City Word Family Church 2022</p>
+            <p> <i class="far fa-copyright"></i>&nbsp; City Word Family Church 2022</p>
         </footer>
 
     <script src="app.js"></script>
