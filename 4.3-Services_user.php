@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png">
     <title>Services | City Word Family Church Inc.</title>
     <script>
         var prevScrollpos = window.pageYOffset;

@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <title>Preaching | City Word Family Church Inc.</title>
     <script>

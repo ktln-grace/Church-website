@@ -45,6 +45,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./My-Profile.css">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <title>My Profile - City Word Family Church Inc.</title>
     <!--

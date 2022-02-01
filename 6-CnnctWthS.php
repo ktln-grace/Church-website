@@ -41,6 +41,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png">
     <title>Connect with us | City Word Family Church Inc.</title>
     <script>
         var prevScrollpos = window.pageYOffset;
@@ -141,7 +142,7 @@
             <label class ="" for ="concerns">
             Share your prayer request or concerns you want to address
             </label>
-            <textarea name="concerns" id="concerns" placeholder="Enter your prayer or concern here"></textarea>here">
+            <textarea name="concerns" id="concerns" placeholder="Enter your prayer or concern here"></textarea>
         </textarea>
         </div>
         <div>

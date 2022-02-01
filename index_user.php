@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fira+Sans&family=Francois+One&display=swap" rel="stylesheet">
     <script>src="https://code.jquery.com/jquery-3.6.0.min.js"</script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="logo/favicon.png">
     <script src="https://kit.fontawesome.com/7d61347327.js" crossorigin="anonymous"></script>
     <script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
