@@ -100,7 +100,7 @@
                 </a>
         </div>
         <div class="channel-links">
-            <a class = "" href="https://www.youtube.com/channel/UCH68AOKb2QyEga571FVBQIw" target="_blank">
+            <a class = "" href="https://open.spotify.com/playlist/3pOzYvXkHXsFe6KoSDSGY1?si=080fd05040104d4b" target="_blank">
             <i class="fab fa-spotify"></i>
             <p class ="">City Word Family Church</p>
             </a>

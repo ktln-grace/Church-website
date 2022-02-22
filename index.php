@@ -84,7 +84,7 @@
                 <h4> Reaching the unreached,</h4>
                 <h3> Saving the unsaved</h3>
                 <p> "Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,<br> and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age." <br> <br> <b>Matthew 28:19-20</b> </p>
-                <a href="2-AboutUs.php"> Read More </a>
+                <a href="#More info"> Read More </a>
         </div>
     </section>
 
@@ -106,13 +106,13 @@
     <div class="slider"></div>
 
     <!-- 2 -->
-    <section class="about">
+    <section class="about" id="More info">
         <h3> Welcome to </h3>
         <h1> City Word Family Church </h1>
         <p> City Word Family Church Incorporated was founded in 2017 by Pastor Roland Paloma. From a single church in Antipolo, churches in Ligao City, and Baras, Rizal was born.
             City Word Family Church has been continuously growing since then because of different life groups opened in different barangays. It has established 2 churches with 2 satellites with more than 300 members excluding children.   
         </p>
-        <button href="2-AboutUs.php" id="button-hover" class= button1> <span> Read More </span></button>
+        <a href="2-AboutUs.php">Read More</a>
     </section>
 
     <!-- 2.1 -->
@@ -167,7 +167,7 @@
                 <h1> Give? </h1>
                 <p>Each of you should give what you have decided in your heart to give, <br> not reluctantly or under compulsion, for God loves a cheerful giver. <br> 2 Corinthians 9:7</p>
                 <div class="button">
-                    <button href="5-Give.php" id="button-hovers" class="button1"><span> Give </span></button>
+                    <a href="5-Give.php">Give</a>
                 </div>
             </div>
             <div class="content">

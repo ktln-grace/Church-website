@@ -98,7 +98,7 @@
     background: linear-gradient(#8cd9dd, #45868a);
     transition: width 0.6s;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 }
 .card .additional2 {
     position: absolute;
@@ -107,7 +107,7 @@
     background: linear-gradient(#9adb98, #4a8a48);
     transition: width 0.6s;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 }
 .card:hover .additional {
     width: 100%;
@@ -155,7 +155,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
     box-sizing: border-box;
     padding: 1rem;
     padding-top: 0;
