@@ -63,7 +63,7 @@
             }
             else{
                 
-                $msg = "Passwords do not!";
+                $msg = "Passwords do not match!";
                 $css_class = "alert-danger";
 
             }
