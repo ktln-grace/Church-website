@@ -1636,7 +1636,19 @@ margin-top: 10px;
     section {
         padding: 20px 20px;
     }
-    
+    .announcement .container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .announcement .container .box{
+        margin-top: 200px;
+    }
+    .add .container .box{
+        margin-top: 300px;
+    }
+    .wwd {
+        margin-top: 200px;
+    }
     .lifegroup .content {
         margin-left: 0px;
         position: relative;
@@ -1700,7 +1712,20 @@ margin-top: 10px;
     section {
         padding: 20px 20px;
     }
-    
+    .announcement .container {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    .announcement .container .box{
+        margin-top: 200px;
+    }
+    .add .container .box{
+        margin-top: 300px;
+    }
+    .wwd {
+        margin-top: 200px;
+    }
     .lifegroup .content {
         margin-left: 0px;
         position: relative;
