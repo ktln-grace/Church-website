@@ -22,6 +22,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: fadeIn 2s;
         
     }
     .banner video{
@@ -52,6 +53,7 @@
     .life{
         width: 100%;
         min-height: 100vh;
+        animation: fadeIn 2s;
     }
     .life .tagline{
         display: flex;

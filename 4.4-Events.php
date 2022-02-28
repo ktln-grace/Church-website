@@ -16,6 +16,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    animation: fadeIn 2s;
 }
 .title h1{
     margin-top: 100px;
@@ -35,6 +36,7 @@
     align-items: center;
     min-height: 100vh;
     font-family: sans-serif;
+    animation: fadeIn 2s;
 }
 .box{
     width: 90%;

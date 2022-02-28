@@ -119,7 +119,7 @@
     <div class="slider"></div>
 
     <!-- 2 -->
-    <section class="about">
+    <section class="about" id="More info">
         <h3> Welcome to </h3>
         <h1> City Word Family Church </h1>
         <p> City Word Family Church Incorporated was founded in 2017 by Pastor Roland Paloma. From a single church in Antipolo, churches in Ligao City, and Baras, Rizal was born.
@@ -163,6 +163,9 @@
     <!-- 3 -->
     <section class="lifegroup">
         <div class="row">
+        <div>
+            <a href="#"><img src="pictures/lg.jpg" class="image"></a>
+        </div>
         <div class="content">
             <h3> Join a </h3>
             <h1> Life group </h1>

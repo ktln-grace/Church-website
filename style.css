@@ -498,10 +498,10 @@ section{
     overflow: hidden;
 }
 .lifegroup .content{
-    width: 80%;
+    width: 100%;
     position: relative;
     text-align: left;
-    margin-left: 500px;
+    justify-content: right;
 }
 .lifegroup h3{
     font-size: 30px;
@@ -526,30 +526,17 @@ section{
     color: white;
     width: 80%;
 }
-.lifegroup .content a{
-    background:#085357;
-    padding: 15px 35px;
-    color:#e1e6e9f6;
-    font-size: 1em;
-    font-weight: 900;
-    text-decoration: none;
-    border-radius: 2px;
-    box-shadow: 5px 5px 10px rgba(8, 23, 26, 0.808);
-}
-.lifegroup .content a:hover{
-    background: linear-gradient(to right, #00D1DB, #09FF00);
-    transition: all .25s ease-in-out;
-    color: #085357;
-}
-.lifegroup .row .content{
-    width: 80%;
-}
-.lifegroup .image-gallery{
+.lifegroup .image{
     display: flex;
-    flex-wrap: wrap;
+    justify-content:left;
+    width: 80%;
+    height: 80%;
 }
-.lifegroup .image-gallery{
-    border-left-width: 300px;
+
+.lifegroup .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* HOME - #4 */
@@ -700,6 +687,7 @@ section{
     text-transform: uppercase;
     margin-bottom: 80px;
     margin-top: -20px;
+    animation: fadeIn 2s;
 }
 .aboutus .content h4{
     font-size: 3em;
@@ -711,6 +699,7 @@ section{
     line-height: 75px;
     margin-bottom: 30px;
     color:#09FF00;
+    animation: fadeIn 2s;
 }
 .aboutus .content h3{
     font-size: 3em;
@@ -722,6 +711,7 @@ section{
     line-height: 75px;
     margin-bottom: 20px;
     color:#00D1DB;
+    animation: fadeIn 2s;
 }
 
 /* ABOUT - 1.2 */
@@ -732,6 +722,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 1vh;
+    animation: fadeIn 2s;
 }
 .add .container {
     display: flex;
@@ -935,6 +926,9 @@ section{
     justify-content: center;
     background: url("pictures/3.1.png") center/cover;
 }
+.preach .content{
+    animation: fadeIn 2s;
+}
 .preach .content h4{
     font-size: 40px;
     font-weight: 700;
@@ -1075,6 +1069,7 @@ section{
     min-height: 100vh;
     justify-content: center;
     background: url("pictures/2.2.png") center/cover;
+    animation: fadeIn 2s;
 }
 .children h1{
     font-size: 60px;
@@ -1188,6 +1183,7 @@ section{
     color: white;
     width: 100%;
     text-align: center;
+    animation: fadeIn 2s;
 }
 .services .content h4{
     font-size: 4em;
@@ -1246,6 +1242,7 @@ section{
     justify-content: center;
     flex-direction: column;
     background: url("pictures/5.1.png") center/cover;
+    animation: fadeIn 2s;
 }
 .giving .content{
     color: white;
@@ -1382,6 +1379,7 @@ section{
     justify-content: center;
     flex-direction: column;
     background: url("pictures/6.1.png") center/cover;
+    animation: fadeIn 2s;
 }
 .connect .content{
     color: black;
@@ -1781,5 +1779,19 @@ margin-top: 10px;
         font-size: 20px;
         margin-left: 0px;
         flex-direction: column;
+    }
+}
+
+/*Animation */
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
     }
 }

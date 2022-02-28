@@ -150,6 +150,9 @@
     <!-- 3 -->
     <section class="lifegroup">
         <div class="row">
+        <div>
+            <a href="#"><img src="pictures/lg.jpg" class="image"></a>
+        </div>
         <div class="content">
             <h3> Join a </h3>
             <h1> Life group </h1>
