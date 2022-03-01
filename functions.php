@@ -47,9 +47,18 @@
         return $randomNumber;
     }
 
+    //Include required PHPMailer files
+    require 'includes/PHPMailer.php';
+    require 'includes/SMTP.php';
+    require 'includes/Exception.php';
+    //Define name spaces
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+
     function SendOTP($email, $otp){
         
-        $message = "Your one time email verification code is " . $otp;  //embed the otp into message.
+        /*$message = "Your one time email verification code is " . $otp;  //embed the otp into message.
         $subject = "Email verification from City Word Family Church Inc.";
         $headers = "From: cityword20@gmail.com";
         
@@ -59,7 +68,47 @@
         }
         else{
             $_SESSION['notice'] = "Email sending failed";
+        }*/
+
+    //Create instance of PHPMailer
+        $mail = new PHPMailer();
+    //Set mailer to use smtp
+        $mail->isSMTP();
+    //Define smtp host
+        $mail->Host = "smtp.gmail.com";
+    //Enable smtp authentication
+        $mail->SMTPAuth = true;
+    //Set smtp encryption type (ssl/tls)
+        $mail->SMTPSecure = "tls";
+    //Port to connect smtp
+        $mail->Port = "587";
+    //Set gmail username
+        $mail->Username = "cityword20@gmail.com";
+    //Set gmail password
+        $mail->Password = "zzqwqbnwqbqlcbxe";
+    //Email subject
+        $mail->Subject = "Email verification from City Word Family Church Inc.";
+    //Set sender email
+        $mail->setFrom('cityword20@gmail.com');
+    //Enable HTML
+        $mail->isHTML(true);
+    //Attachment
+        $mail->addAttachment('logo/logo_for_email.jpg');
+    //Email body
+        $mail->Body = "<p>Your one time email verification code is</p></br><h1>" . $otp . "</h1>";
+    //Add recipient
+        $mail->addAddress($email);
+    //Finally send email
+        if ( $mail->send() ) {
+            //echo "Email Sent..!";
+            $_SESSION['notice'] = "Email successfully sent to " . "$email";
         }
+        else{
+            //echo "Message could not be sent. Mailer Error: "{$mail->ErrorInfo};
+            $_SESSION['notice'] = "Email sending failed";
+        }
+    //Closing smtp connection
+        $mail->smtpClose();
             
     }
 
@@ -71,6 +120,7 @@
         return $age->format("%y");
 
     }
+    
                     
         
 
